@@ -1,16 +1,20 @@
 {
   "folders": [
     {
+      "name": "Tech",
       "path": "."
     },
     {
+      "name": "contents",
       "path": "contents"
     },
     {
-      "path": "contents/Tuan8"
+      "name": "References",
+      "path": "contents/References"
     },
     {
-      "path": "contents/References"
+      "name": "Tuan8",
+      "path": "contents/Tuan8"
     }
   ],
   "settings": {
