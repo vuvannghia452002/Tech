@@ -1,7 +1,5 @@
 [survey](contents/survey/survey.md)
 
-   
-
 [Tuan1](contents/Tuan1/Tuan1.md)
 
 [Tuan2](contents/Tuan2/Tuan2.md)
@@ -13,12 +11,6 @@
 [Tuan5](contents/Tuan5/Tuan5.md)
 
 [Tuan6](contents/Tuan6/Tuan6.md)
-
-<!-- TWP-report -->
-<!-- TWP-Slide6 -->
-
-
-
 
 [Tuan7](contents/Tuan7/Tuan7.md)
 
