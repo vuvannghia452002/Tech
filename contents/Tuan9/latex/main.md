@@ -64,16 +64,22 @@ Defense Mechanisms: Suggests DDoS defense techniques involving detection and res
 
 In the "SECURITY AND PRIVACY CHALLENGES" section, there is a summary as follows:
 
-**Loss of Control**: Users experience diminished control over their data when moving from local servers to remote cloud servers.
-**Data Breaches**: Data loss and breaches are recognized as top threats in cloud computing environments.
-**Multi-Region Regulations**: Data may be stored across data centers in multiple legal jurisdictions, raising concerns about compliance with local laws.
-**Managerial Challenges**: Non-technical managerial issues are closely related to technical solutions needed to address corresponding technical challenges.
+Loss of Control: Users experience diminished control over their data when moving from local servers to remote cloud servers.
+
+Data Breaches: Data loss and breaches are recognized as top threats in cloud computing environments.
+
+Multi-Region Regulations: Data may be stored across data centers in multiple legal jurisdictions, raising concerns about compliance with local laws.
+
+Managerial Challenges: Non-technical managerial issues are closely related to technical solutions needed to address corresponding technical challenges.
 
 <!--  -->
 
 In the "Attack Vectors" section, there is a summary as follows:
 
-- **Network**: Network-based attacks can impact security, data integrity, and the availability of CP data centers.
-- **Hypervisor**: Internal users can exploit the hypervisor to attack other VM instances, especially in multi-tenant environments.
-- **Hardware**: Hardware-based attacks can leverage the multi-tenancy environment to access physical resources like memory, disk buses, and cache.
-- **Defense Measures**: Discusses defense solutions against network, hardware, and hypervisor-based attacks, including emerging technologies like Intel SGX and ARM TrustZone.
+Network: Network-based attacks can impact security, data integrity, and the availability of CP data centers.
+
+Hypervisor: Internal users can exploit the hypervisor to attack other VM instances, especially in multi-tenant environments.
+
+Hardware: Hardware-based attacks can leverage the multi-tenancy environment to access physical resources like memory, disk buses, and cache.
+
+Defense Measures: Discusses defense solutions against network, hardware, and hypervisor-based attacks, including emerging technologies like Intel SGX and ARM TrustZone.
