@@ -75,8 +75,9 @@ Nhận định hoặc nhận xét của cá nhân bạn về nội dung bài vi�
 
 . Cho thấy bài viết này liên quan như thế nào đến cuộc khảo sát nhóm của bạn
 
-PDF
-
-phần tham khảo
-
 <!--  -->
+
+Sách
+Nội dung
+Nhận xét
+Áp dụng
