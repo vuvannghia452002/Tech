@@ -1,6 +1,6 @@
 **2. Summary of Top Three Papers**
 
-<!-- ! deshmukh2015understanding -->
+<!-- !2.1) deshmukh2015understanding -->
 
 **Main Contribution:**
 
@@ -20,31 +20,39 @@
 ![alt text](image.png)
 
 <!-- Table 1. DDoS attacks in past -->
-<!--! liu2015survey -->
 
-<!-- Tóm tắt lại giúp tôi nội dung file pdf phần SECURITY AND PRIVACY CHALLENGES -->
+<!-- !2.2) liu2015survey -->
 
-Dựa trên nội dung của trang web, đây là tóm tắt của phần "SECURITY AND PRIVACY CHALLENGES" từ tài liệu PDF:
-Based on the content of the web page, here is a summary of the "SECURITY AND PRIVACY CHALLENGES" section from the PDF document:
+**Main Contribution:**
 
-- **Loss of Control**: Users experience diminished control over their data when moving from local servers to remote cloud servers.
-- **Data Breaches**: Data loss and breaches are recognized as top threats in cloud computing environments.
-- **Multi-Region Regulations**: Data may be stored across data centers in multiple legal jurisdictions, raising concerns about compliance with local laws.
-- **Managerial Challenges**: Non-technical managerial issues are closely related to technical solutions needed to address corresponding technical challenges.
+Trong phần "SECURITY AND PRIVACY CHALLENGES" có nội dung tóm tắt như sau:
+
+**Loss of Control**: Users experience diminished control over their data when moving from local servers to remote cloud servers.
+**Data Breaches**: Data loss and breaches are recognized as top threats in cloud computing environments.
+**Multi-Region Regulations**: Data may be stored across data centers in multiple legal jurisdictions, raising concerns about compliance with local laws.
+**Managerial Challenges**: Non-technical managerial issues are closely related to technical solutions needed to address corresponding technical challenges.
+
+**Personal Judgement:**
 
 <!-- cá nhân -->
+
+**xxxxxxxxxxx:**
 
 <!-- phục vụ cho    Security and Privacy challenges -->
 
-<!--! coppolino2017cloud -->
-<!-- Attacking vectors -->
+<!-- !2.3) coppolino2017cloud -->
 
-<!-- Tóm tắt lại giúp tôi nội dung file pdf phần SECURITY AND PRIVACY CHALLENGES -->
+Tóm tắt lại giúp tôi nội dung file pdf phần Attacking vectors
 
-<!-- Sử dụng tiếng Anh: -->
+Sử dụng tiếng Anh:
+
+**Personal Judgement:**
 
 <!-- cá nhân -->
-<!-- phục vụ cho    Security and Privacy challenges -->
+
+**xxxxxxxxxxx:**
+
+<!-- phục vụ cho     Attacking vectors -->
 
 <!--  -->
 <!--  -->
