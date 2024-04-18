@@ -15,7 +15,7 @@
 
 **xxxxxxxxxxx:**
 
-<!-- Phục vụ \subsection{Distributed Denial-of-Service (DDoS) Attack} ở phần  -->
+<!-- Phục vụ  cho phần Distributed Denial-of-Service (DDoS) Attack  -->
 
 ![alt text](image.png)
 
@@ -38,13 +38,22 @@ Trong phần "SECURITY AND PRIVACY CHALLENGES" có nội dung tóm tắt như sa
 
 **xxxxxxxxxxx:**
 
-<!-- phục vụ cho    Security and Privacy challenges -->
+<!-- Phục vụ  cho phần    Security and Privacy challenges -->
 
 <!-- !2.3) coppolino2017cloud -->
+
+**Main Contribution:**
 
 Tóm tắt lại giúp tôi nội dung file pdf phần Attacking vectors
 
 Sử dụng tiếng Anh:
+
+Certainly! Here's a summary of the "Attack Vectors" section from the PDF:
+
+- **Network**: Network-based attacks can impact security, data integrity, and the availability of CP data centers.
+- **Hypervisor**: Internal users can exploit the hypervisor to attack other VM instances, especially in multi-tenant environments.
+- **Hardware**: Hardware-based attacks can leverage the multi-tenancy environment to access physical resources like memory, disk buses, and cache.
+- **Defense Measures**: Discusses defense solutions against network, hardware, and hypervisor-based attacks, including emerging technologies like Intel SGX and ARM TrustZone.
 
 **Personal Judgement:**
 
@@ -52,7 +61,7 @@ Sử dụng tiếng Anh:
 
 **xxxxxxxxxxx:**
 
-<!-- phục vụ cho     Attacking vectors -->
+<!-- Phục vụ  cho phần    Attacking vectors -->
 
 <!--  -->
 <!--  -->
