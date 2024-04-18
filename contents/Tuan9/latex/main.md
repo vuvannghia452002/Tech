@@ -1,4 +1,4 @@
-**1. Introduction**
+**Introduction**
 
 In this report, I will summarize my learning progress and contributions during the midterm period. I will highlight the top three most important papers I've read, along with my personal judgments and comments on each paper. Furthermore, I will demonstrate how these papers relate to our group survey.
 
@@ -31,14 +31,9 @@ Each of the papers I've read directly relates to our group survey on AI in healt
 - The NLP paper is relevant as it sheds light on how natural language processing techniques can be utilized to extract valuable information from medical texts, patient records, and research papers, aiding in diagnosis and decision-making.
 - Finally, the reinforcement learning paper introduces the concept of learning from feedback, which has implications for optimizing treatment plans and personalized medicine through adaptive learning systems.
 
-**5. Conclusion**
+**Conclusion**
 
-In conclusion, the midterm period has been instrumental in expanding my knowledge in key areas of AI, particularly in deep learning, NLP, and reinforcement learning. These insights have not only enriched my understanding of AI techniques but also contributed significantly to our group survey on AI in healthcare diagnostics.
+
 
 **References**
 
-[1] Author(s), "Deep Learning for Image Recognition," Journal/Conference Name, Year.
-
-[2] Author(s), "Natural Language Processing: State of the Art," Journal/Conference Name, Year.
-
-[3] Author(s), "Reinforcement Learning: An Introduction," Journal/Conference Name, Year.
