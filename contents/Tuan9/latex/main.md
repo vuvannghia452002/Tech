@@ -1,3 +1,62 @@
+**Midterm Exam Report: Learning Progress and Contribution**
+
+**1. Introduction**
+
+In this report, I will summarize my learning progress and contributions during the midterm period. I will highlight the top three most important papers I've read, along with my personal judgments and comments on each paper. Furthermore, I will demonstrate how these papers relate to our group survey.
 
 
 
+**Báo cáo thi giữa kỳ: Tiến độ học tập và đóng góp**
+
+**1. Giới thiệu**
+
+Trong báo cáo này, tôi sẽ tóm tắt lại tiến độ học tập và những đóng góp của tôi trong giai đoạn giữa kỳ. Tôi sẽ nêu bật ba bài báo quan trọng nhất mà tôi đã đọc, cùng với những đánh giá và nhận xét cá nhân của tôi trên mỗi bài báo. Hơn nữa, tôi sẽ chứng minh những bài viết này liên quan như thế nào đến cuộc khảo sát nhóm của chúng tôi.
+
+
+
+
+**Midterm Exam Report: Learning Progress and Contribution**
+
+**1. Introduction**
+
+In this report, I will summarize my learning progress and contributions during the midterm period. I will highlight the top three most important papers I've read, along with my personal judgments and comments on each paper. Furthermore, I will demonstrate how these papers relate to our group survey.
+
+**2. Summary of Top Three Papers**
+
+**[1] Paper Title: "Deep Learning for Image Recognition"**
+- **Main Contribution:** This paper presents an in-depth exploration of deep learning techniques for image recognition tasks. It covers various architectures such as Convolutional Neural Networks (CNNs) and their applications in image classification, object detection, and segmentation.
+- **Personal Judgement:** I found this paper extremely insightful in understanding the fundamentals of deep learning applied to image recognition. The detailed explanations of CNN architectures and their real-world applications were particularly valuable.
+
+**[2] Paper Title: "Natural Language Processing: State of the Art"**
+- **Main Contribution:** This paper provides an overview of the state-of-the-art techniques in natural language processing (NLP). It covers topics such as word embeddings, recurrent neural networks (RNNs), and transformer models like BERT and GPT.
+- **Personal Judgement:** As someone interested in language processing tasks, I found this paper to be an excellent resource. It not only gave me a comprehensive understanding of modern NLP techniques but also inspired me to delve deeper into transformer architectures.
+
+**[3] Paper Title: "Reinforcement Learning: An Introduction"**
+- **Main Contribution:** This seminal paper introduces the field of reinforcement learning (RL) and its foundational concepts. It covers topics such as Markov decision processes, value iteration, policy iteration, and Q-learning.
+- **Personal Judgement:** While challenging, this paper provided a solid foundation in RL concepts. It clarified many intricate details of RL algorithms and their applications, sparking my interest in exploring RL further.
+
+**3. Contribution to Group Work**
+
+During the midterm period, my contribution to our group work primarily revolved around synthesizing the knowledge gained from the above papers and integrating it into our group survey. I played a key role in analyzing how deep learning, NLP, and RL techniques could be applied to our survey topic, which focuses on the role of AI in healthcare diagnostics. By leveraging insights from these papers, I proposed potential methodologies and algorithms that could enhance diagnostic accuracy and efficiency in healthcare settings.
+
+**4. Relationship to Group Survey**
+
+Each of the papers I've read directly relates to our group survey on AI in healthcare diagnostics:
+
+- The paper on deep learning for image recognition informs our understanding of how convolutional neural networks can be employed to analyze medical images such as X-rays and MRIs for diagnostic purposes.
+  
+- The NLP paper is relevant as it sheds light on how natural language processing techniques can be utilized to extract valuable information from medical texts, patient records, and research papers, aiding in diagnosis and decision-making.
+  
+- Finally, the reinforcement learning paper introduces the concept of learning from feedback, which has implications for optimizing treatment plans and personalized medicine through adaptive learning systems.
+
+**5. Conclusion**
+
+In conclusion, the midterm period has been instrumental in expanding my knowledge in key areas of AI, particularly in deep learning, NLP, and reinforcement learning. These insights have not only enriched my understanding of AI techniques but also contributed significantly to our group survey on AI in healthcare diagnostics.
+
+**References**
+
+[1] Author(s), "Deep Learning for Image Recognition," Journal/Conference Name, Year.
+
+[2] Author(s), "Natural Language Processing: State of the Art," Journal/Conference Name, Year.
+
+[3] Author(s), "Reinforcement Learning: An Introduction," Journal/Conference Name, Year.
