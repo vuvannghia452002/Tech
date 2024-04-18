@@ -2,15 +2,9 @@
 
 In this report, I will summarize my learning progress and contributions during the midterm period.
 
-<!-- Trong báo cáo này, tôi sẽ tóm tắt lại tiến độ học tập và những đóng góp của tôi trong giai đoạn giữa kỳ. -->
-
 I will highlight the top three most important papers I've read, along with my personal judgments and comments on each paper.
 
 Furthermore, I will demonstrate how these papers relate to our group survey.
-
-Tôi sẽ nêu bật ba bài báo quan trọng nhất mà tôi đã đọc, cùng với những đánh giá và nhận xét cá nhân của tôi trên mỗi bài báo.
-
-Hơn nữa, tôi sẽ chứng minh những bài viết này liên quan như thế nào đến cuộc khảo sát nhóm của chúng tôi.
 
 **2. Summary of Top Three Papers**
 
