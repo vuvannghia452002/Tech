@@ -1,6 +1,3 @@
-**Introduction**
-
-In this report, I will summarize my learning progress and contributions during the midterm period. I will highlight the top three most important papers I've read, along with my personal judgments and comments on each paper. Furthermore, I will demonstrate how these papers relate to our group survey.
 
 **2. Summary of Top Three Papers**
 
@@ -30,10 +27,3 @@ Each of the papers I've read directly relates to our group survey on AI in healt
 - The paper on deep learning for image recognition informs our understanding of how convolutional neural networks can be employed to analyze medical images such as X-rays and MRIs for diagnostic purposes.
 - The NLP paper is relevant as it sheds light on how natural language processing techniques can be utilized to extract valuable information from medical texts, patient records, and research papers, aiding in diagnosis and decision-making.
 - Finally, the reinforcement learning paper introduces the concept of learning from feedback, which has implications for optimizing treatment plans and personalized medicine through adaptive learning systems.
-
-**Conclusion**
-
-
-
-**References**
-
