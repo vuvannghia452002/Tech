@@ -1,7 +1,38 @@
+**2. Summary of Top Three Papers**
+
+
+
+**Main Contribution:**
+
+**Personal Judgement:**
+
+<!-- hussein2016survey -->
+<!--! ali2015security -->
+2. Cloud computing architectural framework
+
+
+<!-- Security and Privacy challenges -->
+<!--! liu2015survey -->
+
+<!-- Attacking vectors -->
+<!--! coppolino2017cloud -->
+
+<!-- Current techniques to cope with attacks -->
+
+<!-- Future solutions and directions -->
 
 <!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
 
-**2. Summary of Top Three Papers**
+
+
+<!-- 
+
 
 **[1] Paper Title: "Deep Learning for Image Recognition"**
 
@@ -17,6 +48,12 @@
 
 - **Main Contribution:** This seminal paper introduces the field of reinforcement learning (RL) and its foundational concepts. It covers topics such as Markov decision processes, value iteration, policy iteration, and Q-learning.
 - **Personal Judgement:** While challenging, this paper provided a solid foundation in RL concepts. It clarified many intricate details of RL algorithms and their applications, sparking my interest in exploring RL further.
+ -->
+
+
+
+
+
 
 **3. Contribution to Group Work**
 
