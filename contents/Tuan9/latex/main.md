@@ -1,34 +1,7 @@
 **2. Summary of Top Three Papers**
 ![alt text](image.png)
 
-<!-- Table 1. DDoS attacks in past -->
-
-
-    
-
-
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
+<!-- DDoS attacks in past -->
 
 <!--
 
@@ -72,3 +45,17 @@
 <!-- _Main Contribution:_ -->
 <!-- _Personal Judgement:_ -->
 <!-- _Contribution to Group Work:_ -->
+
+<!--  -->
+
+Hãy nêu ý kiến cá nhân
+
+In the paper, there is a summary as follows:
+
+Cloud Computing Definition: Cloud computing is defined as a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort.
+
+DDoS Attack Explanation: The paper explains DDoS attacks, their impact in cloud computing environments, and considerations for selecting defense mechanisms against DDoS.
+
+Types of DDoS Attacks: It classifies DDoS attacks based on bandwidth and resource consumption, including Flood and Amplification attacks.
+
+Defense Mechanisms: Suggests DDoS defense techniques involving detection and response methods, as well as factors to consider when choosing a DDoS defense solution.
