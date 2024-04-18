@@ -3,39 +3,9 @@
 
 <!-- Table 1. DDoS attacks in past -->
 
-<!-- !2.2) liu2015survey -->
 
-<!-- _Main Contribution:_ -->
+    
 
-Trong phần "SECURITY AND PRIVACY CHALLENGES" có nội dung tóm tắt như sau:
-
-**Loss of Control**: Users experience diminished control over their data when moving from local servers to remote cloud servers.
-**Data Breaches**: Data loss and breaches are recognized as top threats in cloud computing environments.
-**Multi-Region Regulations**: Data may be stored across data centers in multiple legal jurisdictions, raising concerns about compliance with local laws.
-**Managerial Challenges**: Non-technical managerial issues are closely related to technical solutions needed to address corresponding technical challenges.
-
-<!-- _Personal Judgement:_ -->
-<!-- cá nhân -->
-
-<!-- _Contribution to Group Work:_ -->
-<!-- Phục vụ  cho phần    Security and Privacy challenges -->
-
-<!-- !2.3) coppolino2017cloud -->
-
-<!-- _Main Contribution:_ -->
-
-Tóm tắt lại giúp tôi nội dung file pdf phần Attacking vectors Certainly! Here's a summary of the "Attack Vectors" section from the PDF:
-
-- **Network**: Network-based attacks can impact security, data integrity, and the availability of CP data centers.
-- **Hypervisor**: Internal users can exploit the hypervisor to attack other VM instances, especially in multi-tenant environments.
-- **Hardware**: Hardware-based attacks can leverage the multi-tenancy environment to access physical resources like memory, disk buses, and cache.
-- **Defense Measures**: Discusses defense solutions against network, hardware, and hypervisor-based attacks, including emerging technologies like Intel SGX and ARM TrustZone.
-
-<!-- _Personal Judgement:_ -->
-<!-- cá nhân -->
-
-<!-- _Contribution to Group Work:_ -->
-<!-- Phục vụ  cho phần    Attacking vectors -->
 
 <!--  -->
 <!--  -->
