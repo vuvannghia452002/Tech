@@ -1,25 +1,48 @@
 **2. Summary of Top Three Papers**
-**Main Contribution:**
-**Personal Judgement:**
-
 <!-- ! deshmukh2015understanding -->
+**Main Contribution:**
+
 
 **Cloud Computing Definition**: Cloud computing is defined as a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort.
 **DDoS Attack Explanation**: The paper explains DDoS attacks, their impact in cloud computing environments, and considerations for selecting defense mechanisms against DDoS.
 **Types of DDoS Attacks**: It classifies DDoS attacks based on bandwidth and resource consumption, including Flood and Amplification attacks.
 **Defense Mechanisms**: Suggests DDoS defense techniques involving detection and response methods, as well as factors to consider when choosing a DDoS defense solution.
 
-<!-- Từ đó giúp tiếp cận hiểu biết DDoS -->
+**Personal Judgement:**
+<!-- Từ đó giúp tiếp cận + hiểu biết DDoS  -->
 
-<!-- Security and Privacy challenges -->
+**xxxxxxxxxxx:**
+<!-- Phục vụ \subsection{Distributed Denial-of-Service (DDoS) Attack} ở phần  -->
+![alt text](image.png)
+<!-- Table 1. DDoS attacks in past -->
 <!--! liu2015survey -->
 
-<!-- Attacking vectors -->
+<!-- Tóm tắt lại giúp tôi nội dung file pdf phần SECURITY AND PRIVACY CHALLENGES --> 
+Dựa trên nội dung của trang web, đây là tóm tắt của phần "SECURITY AND PRIVACY CHALLENGES" từ tài liệu PDF: 
+Based on the content of the web page, here is a summary of the "SECURITY AND PRIVACY CHALLENGES" section from the PDF document:
+
+- **Loss of Control**: Users experience diminished control over their data when moving from local servers to remote cloud servers.
+- **Data Breaches**: Data loss and breaches are recognized as top threats in cloud computing environments.
+- **Multi-Region Regulations**: Data may be stored across data centers in multiple legal jurisdictions, raising concerns about compliance with local laws.
+- **Managerial Challenges**: Non-technical managerial issues are closely related to technical solutions needed to address corresponding technical challenges.
+
+
+<!-- cá nhân -->
+
+<!-- phục vụ cho    Security and Privacy challenges -->
+
 <!--! coppolino2017cloud -->
+<!-- Attacking vectors -->
 
-<!-- Current techniques to cope with attacks -->
+<!-- Tóm tắt lại giúp tôi nội dung file pdf phần SECURITY AND PRIVACY CHALLENGES -->
 
-<!-- Future solutions and directions -->
+
+<!-- Sử dụng tiếng Anh: -->
+
+ 
+
+<!-- cá nhân -->
+<!-- phục vụ cho    Security and Privacy challenges -->
 
 <!--  -->
 <!--  -->
