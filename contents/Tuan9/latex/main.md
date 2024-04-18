@@ -48,7 +48,7 @@
 
 <!--  -->
 
-Hãy nêu ý kiến cá nhân về
+<!-- Hãy nêu ý kiến cá nhân về -->
 
 In the paper, there is a summary as follows:
 
@@ -62,6 +62,11 @@ Defense Mechanisms: Suggests DDoS defense techniques involving detection and res
 
 <!--  -->
 
+In this paper has been mentioned about Cloud Computing and DDoS attack, as well as defense measures. The paper also proposes some DDoS defense measures using detection and response methods, along with considering factors when choosing a DDoS defense solution. This marks the need to carefully calculate and propose appropriate defense measures to protect Cloud Computing systems from malicious attacks.
+
+<!--  -->
+<!-- Hãy nêu ý kiến cá nhân về -->
+
 In the "SECURITY AND PRIVACY CHALLENGES" section, there is a summary as follows:
 
 Loss of Control: Users experience diminished control over their data when moving from local servers to remote cloud servers.
@@ -73,6 +78,7 @@ Multi-Region Regulations: Data may be stored across data centers in multiple leg
 Managerial Challenges: Non-technical managerial issues are closely related to technical solutions needed to address corresponding technical challenges.
 
 <!--  -->
+Hãy nêu ý kiến cá nhân về
 
 In the "Attack Vectors" section, there is a summary as follows:
 
@@ -83,3 +89,5 @@ Hypervisor: Internal users can exploit the hypervisor to attack other VM instanc
 Hardware: Hardware-based attacks can leverage the multi-tenancy environment to access physical resources like memory, disk buses, and cache.
 
 Defense Measures: Discusses defense solutions against network, hardware, and hypervisor-based attacks, including emerging technologies like Intel SGX and ARM TrustZone.
+
+<!--  -->
