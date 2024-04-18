@@ -1,10 +1,6 @@
 **1. Introduction**
 
-In this report, I will summarize my learning progress and contributions during the midterm period.
-
-I will highlight the top three most important papers I've read, along with my personal judgments and comments on each paper.
-
-Furthermore, I will demonstrate how these papers relate to our group survey.
+In this report, I will summarize my learning progress and contributions during the midterm period. I will highlight the top three most important papers I've read, along with my personal judgments and comments on each paper. Furthermore, I will demonstrate how these papers relate to our group survey.
 
 **2. Summary of Top Three Papers**
 
