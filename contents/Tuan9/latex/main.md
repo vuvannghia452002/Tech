@@ -1,23 +1,15 @@
 **2. Summary of Top Three Papers**
 
-
-
-
-
-
-
-
 <!-- !2.1) deshmukh2015understanding -->
 
-
 <!-- _Main Contribution:_ -->
+
 **Cloud Computing Definition**: Cloud computing is defined as a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort.
 **DDoS Attack Explanation**: The paper explains DDoS attacks, their impact in cloud computing environments, and considerations for selecting defense mechanisms against DDoS.
 **Types of DDoS Attacks**: It classifies DDoS attacks based on bandwidth and resource consumption, including Flood and Amplification attacks.
 **Defense Mechanisms**: Suggests DDoS defense techniques involving detection and response methods, as well as factors to consider when choosing a DDoS defense solution.
 
 <!-- _Personal Judgement:_ -->
-
 
 <!-- Từ đó giúp tiếp cận + hiểu biết DDoS  -->
 
@@ -31,6 +23,7 @@
 <!-- !2.2) liu2015survey -->
 
 <!-- _Main Contribution:_ -->
+
 Trong phần "SECURITY AND PRIVACY CHALLENGES" có nội dung tóm tắt như sau:
 
 **Loss of Control**: Users experience diminished control over their data when moving from local servers to remote cloud servers.
@@ -47,6 +40,7 @@ Trong phần "SECURITY AND PRIVACY CHALLENGES" có nội dung tóm tắt như sa
 <!-- !2.3) coppolino2017cloud -->
 
 <!-- _Main Contribution:_ -->
+
 Tóm tắt lại giúp tôi nội dung file pdf phần Attacking vectors Certainly! Here's a summary of the "Attack Vectors" section from the PDF:
 
 - **Network**: Network-based attacks can impact security, data integrity, and the availability of CP data centers.
@@ -122,9 +116,6 @@ Tóm tắt lại giúp tôi nội dung file pdf phần Attacking vectors Certain
 <!--  -->
 <!--  -->
 
-
-
 <!-- _Main Contribution:_ -->
 <!-- _Personal Judgement:_ -->
 <!-- _Contribution to Group Work:_ -->
-
