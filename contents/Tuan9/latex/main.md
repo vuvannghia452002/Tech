@@ -1,14 +1,13 @@
 **2. Summary of Top Three Papers**
-
-
-
 **Main Contribution:**
-
 **Personal Judgement:**
+<!-- ! deshmukh2015understanding -->
+**Cloud Computing Definition**: Cloud computing is defined as a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort.
+**DDoS Attack Explanation**: The paper explains DDoS attacks, their impact in cloud computing environments, and considerations for selecting defense mechanisms against DDoS.
+**Types of DDoS Attacks**: It classifies DDoS attacks based on bandwidth and resource consumption, including Flood and Amplification attacks.
+**Defense Mechanisms**: Suggests DDoS defense techniques involving detection and response methods, as well as factors to consider when choosing a DDoS defense solution.
 
-<!-- hussein2016survey -->
-<!--! ali2015security -->
-2. Cloud computing architectural framework
+<!-- Từ đó giúp tiếp cận hiểu biết DDoS -->
 
 
 <!-- Security and Privacy challenges -->
