@@ -1,31 +1,395 @@
-\documentclass[12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[twocolumn]{article}
+% Dùng để thêm hình ảnh
+\usepackage{graphicx}
+% Dùng để di chuyển các tham chiếu
+\usepackage{hyperref}
+% Dùng để tạo văn bản ngẫu nhiên
+\usepackage{lipsum}
+% Dùng để cố định hình ảnh \begin{figure}[H]
+\usepackage{float}
+% Dùng để tài liệu tham khảo
+\usepackage{cite}
+%
 \usepackage{tikz}
+%
+% Dùng để sử dụng màu
+\usepackage{xcolor}
+% 
+% Đổi kiểu đánh số
+\usepackage{enumitem}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\Alph{subsection}} 
+\renewcommand{\thesubsubsection}{\arabic{subsubsection}} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \pagecolor[RGB]{40, 42, 54} % Đặt màu nền
+% \color[RGB]{18, 161, 24} % Đặt màu chữ
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\usepackage{fancyhdr}
 
+% Dùng để tạo keywords
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords.}} #1}
+
+%
+\definecolor{myblack}{RGB}{0, 0, 0}
+\newcommand{\myrect}{\tikz[baseline=(char.base)]{\node[anchor=text, rectangle, inner sep=5pt, fill=myblack, text=white] (char) {\normalfont\small SURVEY PAPER};}}
+
+% Redefine \maketitle to disable page numbering
+\let\oldmaketitle\maketitle
+\renewcommand{\maketitle}{
+\thispagestyle{empty}
+\oldmaketitle
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\fancyhf{}
+% \renewcommand{\headrulewidth}{0pt} % Loại bỏ đường gạch ngang
+\lhead{\raisebox{-0.4\height}{\includegraphics[width=2cm]{pictures/MDPI.png}}}
+\rhead{\myrect}
+
+% Thiết lập chân trang
+% \fancyfoot[L]{Copyright \textcopyright \the\year. Faculty of Applied Mathematics and Informatics}
+\fancyfoot[C]{\thepage} % Chân trang phải
+% \fancyfoot[R]{\thepage} % Chân trang phải
+
+% Thêm thanh ngang phía dưới chân trang
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footruleskip}{0mm}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{black}\leaders\hrule height \footrulewidth\hfill}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tiêu đề
+\title{A Survey of Security and Privacy in Cloud Computing: Challenges, Solutions and Future Directions}
+% Tác giả
+\author{
+    Mai Thanh Duy{*} 20227225 \\
+    Tran Duc Toan 20195929 \\
+    Vu Van Nghia 20206205
+}
 
-\begin{center}
-\begin{tikzpicture}[scale=0.2]
-\tikzstyle{every node}+=[inner sep=0pt]
-\draw [black] (13.1,-14.9) circle (3);
-\draw (13.1,-14.9) node {$xxxxxxxxxxxx$};
-\draw [black] (33.8,-13.3) circle (3);
-\draw (33.8,-13.3) node {$xxxxxxxxxxxxxxxxxxxxxxxxx$};
-\draw [black] (60.7,-14.6) circle (3);
-\draw (60.7,-14.6) node {$xxxxxxxxxxxxxxxxx$};
-\draw [black] (37.2,-29.2) circle (3);
-\draw [black] (14.4,-44.5) circle (3);
-\draw (14.4,-44.5) node {$xxxxxxxxxx$};
-\draw [black] (36.8,-43.5) circle (3);
-\draw (36.8,-43.5) node {$xxxxxxx$};
-\draw [black] (64.9,-43.8) circle (3);
-\draw (64.9,-43.8) node {$xxxxxxxxxx$};
-\draw [black] (16.89,-42.83) -- (34.71,-30.87);
-\draw [black] (36.88,-40.5) -- (37.12,-32.2);
-\draw [black] (39.85,-30.6) -- (62.25,-42.4);
-\draw [black] (39.75,-27.62) -- (58.15,-16.18);
-\draw [black] (36.57,-26.27) -- (34.43,-16.23);
-\draw [black] (15.68,-16.43) -- (34.62,-27.67);
-\end{tikzpicture}
-\end{center}
 
-\end{document}
+\date{}
+
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+  As organizations increasingly transition critical operations to the cloud, ensuring strong security measures becomes paramount. However, the evolving threat landscape poses significant challenges as cyber adversaries continually devise sophisticated tactics to exploit vulnerabilities in cloud infrastructure. This survey paper gives an overview of cloud computing infrastructure, how cloud computing works, as well as how major companies around the world implement cloud computing transformation. The article also provides in-depth analysis of the current threats facing cloud security, from data breaches and insider threats to sophisticated attacks and vulnerabilities in the supply chain. By examining real-world case studies and industry reports, we identify key vulnerabilities that leave cloud environments at risk of exploitation. Furthermore, this article includes the security options offered by the major vendors, thereby exploring the emerging trends and technologies that are shaping the future of cloud security. Additionally, we discuss the role of automation, orchestration, and artificial intelligence in enhancing threat detection and response in the cloud.
+\end{abstract}
+
+\keywords{cloud computing, attacking vectors, future directions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+In recent years, cloud computing has emerged as a dominant paradigm in the realm of IT infrastructure, driven by a confluence of market forces and technological advancements. The dynamic nature of modern business environments has propelled organizations towards adopting cloud-based solutions to meet their evolving computational needs. With an ever-expanding array of enterprise services and applications, companies are increasingly reliant on cloud infrastructures to support their operations.
+
+
+
+% Phần 2 sách zhang2010cloud có WHAT IS CLOUD COMPUTING
+\textcolor{red}{\lipsum[1]}
+% Phần 2 sách zhang2010cloud có WHAT IS CLOUD COMPUTING
+
+
+
+
+This explores the multifaceted landscape of cloud security, divided into four chapters. In first chapter:  Security Issues and Threats ", devilving into the various security concerns that plague cloud environments, examining real-world examples and their implications for cloud security. In Attack Patterns: Understanding the methods and patterns used by attackers is crucial for devising effective security measures. This chapter explores common attack vectors targeting cloud infrastructures, providing insights into malicious strategies. In Current Techniques to Counter: mitigating the risks posed by security threats, organizations deploy a range of techniques and technologies. This chapter reviews the current state-of-the-art approaches for securing cloud environments. Finally, in Future Directions: Looking ahead, the landscape of cloud security is poised for continued evolution. This final chapter examines emerging trends and technologies that are shaping the future of cloud security.
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Security and Privacy challenges} 
+
+In this section, we investigate the specific security and privacy challenges in cloud computing which pose lots of threats, risks and require the development of advanced security technologies.
+A “threat” is an act of coercion of a potential attack to elicit negative response. It is generally an effect that can be described as anything that would tamper, destruct or interrupt of any service or item of value. The term “risk” refers to the possibility of being targeted by an attack, getting success and exposed by the attack. The term “vulnerability” refers to the security flaws in a system that allows an attack to be successful . In general, the threats exploit the vulnerabilities of a system, which leads to risk by damaging assets and causing exposure. However, threats can be identified in order to mitigate risks and countermeasure for vulnerabilities.
+
+
+
+
+
+
+
+\subsection{Loss of control} 
+\subsubsection{Data Loss and Data Theft} 
+Data loss and data breaches were recognized as the top threats in cloud computing environments in 2013. A recent survey shows that 63\% of customers would be less likely to purchase a cloud service if the cloud vendor reported a material data breach involving the loss or theft of sensitive or confidential personal information.Whether a C can securely maintain customers’ data has become the major concern of cloud users. The frequent outages occurring on reputable CSPs , including Amazon, Dropbox, Microsoft, Google Drive, \dots, further exacerbate such concerns \cite{liu2015survey}.
+
+
+\textbf{Data Loss:} Due to the number of interactions between known/unknown risks \& challenges in the architectural or operational characteristics of Cloud Computing. Accidental deletion or alteration of records without a backup; Storage on unreliable media; Loss of encoding key by customer; unauthorized access to sensitive data; operational failures; disposal challenges; risk of association; jurisdiction \& political issues; data centre reliability; physical catastrophe; disaster recovery; Results: devastating business impact; damage to brand \& reputation; impact stakeholders’ moral \& trust; loss of property; leakage of data lead to compliance violations \& legal ramifications  \cite{ahmad2017cloud}.
+
+
+\textbf{Data theft:} In a multitenant infrastructure, if cloud service database has error in design, a flaw in one client’s application will allow an attacker to access not only to that application data but every others’ data as well. Offline backups of data to avoid catastrophic data loss will also increase the chance of exposure to data breach \cite{ahmad2017cloud}.
+
+\subsubsection{Data  storage and tranmission through regional norms} 
+Due to the distributed infrastructure of the cloud, cloud users’ data may be stored on data centers geographically located in multiple legal jurisdictions, leading to cloud users’ concerns about the legal reach of local regulations on data stored out of region. Furthermore, the local laws may be violated since the dynamic nature of the cloud makes it extremely difficult to designate a specific server or device to be used for transborder data transmission \cite{liu2015survey}.
+
+
+
+\subsubsection{Cheap Data Leakage and Analysis} 
+The rapid development of cloud computing has facilitated the generation of big data, leading to cheap data collections and analysis. For example, many popular online social media sites, such as Facebook, Twitter and LinkedIn, are utilizing the cloud computing technology to store and process their customers’ data. Cloud providers that store the data are gaining considerable business revenue by either retrieving user information through data mining and analysis by themselves or selling the data to other businesses for secondary usage. One example is that Google is using its cloud infrastructure to collect and analyze users’ data for its advertisingnetwork.
+Such data usage has raised extensive privacy concerns since the sensitive information of cloud users may be easily accessed and analyzed by unauthorized parties. The Electronic Privacy Information Center (EPIC) asked to shut down Gmail, Google Docs, Google Calendar, and the company’s other Web apps until government-approved
+“safeguards are verifiably established”. Netflix had to cancel its \$1 million data challenge prize due to a legal suit because it violated customers’ privacy during the data sharing process. While technologies such as data anonymization are under investigation, users’ data privacy has to be fundamentally protected by standards, regulations and laws \cite{liu2015survey}.
+
+
+
+
+
+
+
+    \subsection{Shortage of Transparency}
+    \subsubsection{Malicious Insiders/Unauthorized Internal Access} 
+Threats amplify due to the convergence of IT services under a single management domain; General lack of transparency into CSP processes \& procedures; less visibility into the hiring standard and practices of cloud employees’ lead to adversary. A malicious insider, such as a system administrator, in an improperly designed cloud scenario can have access to potentially sensitive information. Results: Espionage; hacker; organized crime; corporate espionage; spoofing; tampering, information disclosure; nation-state sponsored intrusion; Brand damage; financial impact; productivity losses; impact on business continuity, traditional security and  disaster recovery \cite{ahmad2017cloud}.
+
+    \subsubsection{Ambiguous ownership \& responsibility}
+Lack of clear ownership and defined responsibilities for data protection may responsibility result in failure of meeting regulatory and of data legal   obligations \cite{ahmad2017cloud}.
+
+
+
+\textbf{Authentication \& Authorization:} Cloud building organizations has to authenticate each and every person who is using the cloud from the cloud utilizing organization. They will provide authorizations to the users based on the service usage and payment. The cloud building organization has to prevent unauthorized users by checking authorization. The cloud utilizing organization has to remove or disable accounts of the ex-employees on day-to-day  basis \cite{mandala2012cloud}.
+
+
+
+    \subsection{Virtual Machine Related Challenges}
+Virtualization refers to the logical abstraction of computing resources from physical constraints. One representative example of virtualization technology is the virtual machine (VM). Virtualization can also be performed on many other computing resources, such as operating system, networks, memory, and storage. In a virtualized environment, computing resources can be dynamically created, expanded, shrunk or moved according to users’ demand, which greatly improves agility and flexibility, reduces costs and enhances business values for cloud computing. 
+
+
+
+
+Despite of its substantial benefits, this technology also introduces security and privacy risks in the cloud computing environment.
+
+
+    \subsubsection{Security threats sourced from host}
+Monitoring VMs from host The control point in virtual environment is the host machine there are implications that allow the host to monitor and communicate with VM applications up running. Therefore, it is more necessary to strictly protect the host machines than protecting distinctive VMs . VM-level protection is crucial in cloud computing environment. The enterprise can co-locate applications with different trust levels on the same host and can defend VMs in a shared multi-tenant environment. This enables enterprises to maximize the benefits of virtualization. VM-level protection allows VMs to stay secure in today’s dynamic data centers. Also, as VMs travel between different environments – from on-premise virtual servers to private clouds to public clouds, and even between cloud vendors 
+      \cite{hussein2016survey}.
+
+
+
+
+ Communications between VMs and host The data transfer between VMs and the host flow between VMs shared virtual resources; in fact the host can monitor the network traffic of its own hosted VMs. This can be considering useful features for attackers and they may use it such as shared clipboard which allows data to transfer between VMs and the host using cooperating malicious program in VMs. It is not generally considered a bug or limitation when one can initiate monitoring, change, or communication with a VM application from the host. The host environment needs to be more strictly secured than the individual VMs. The host can influence the VMs in   the following ways \cite{hussein2016survey}:
+
+
+
+\begin{itemize}
+\item     The host can Start, shutdown, pause, and restart VMs.
+ \item     Monitoring and configuration of resources which are available to the VMs, these include: CPU, memory, disk, and network usage of VMs. 
+\item     Adjust the number of CPUs, the amount of memory, the amount and number of virtual disks, and a number of virtual network interfaces which are available to a VM.
+\item     Monitoring the applications which are running inside the VM.
+ \item     View, copy, and possibly modify, data stored on the VM's virtual disks. Unfortunately, the system admin or any authorized user who has privileged control over the backend can misuse these procedures. 
+\end{itemize}
+
+
+
+    \subsubsection{Security threats sourced from other VM}
+    
+\textbf{Monitoring VMs from other VM:} Monitoring VMs could violate security and privacy, but the new architecture of CPUs, integrated with a memory protection feature, could prevent security and privacy violation. A major reason for adopting virtualization is to isolate security tools from an untrusted VM by moving them to a separate trusted secure VM.
+
+
+
+
+
+
+ \textbf{Communication between VMs:} One of the most critical threads that threaten exchanging information between virtual machines is how it's deployed. Sharing resources between VMs may strip security of each VM for instance collaboration using application such as shared clipboard that allow exchanging data between VMs and the host assisting malicious program in VMs, this situation violate security and privacy. Also, a malicious VM can has chance to access other VMs through shard memory.
+
+
+
+
+ 
+\textbf{Denial of Service (DoS):} A DoS attack is a trying to denial services that provide to authorize users. For example when trying to access site we see that due to overloading of the server with the requests to access the site, we are unable to access the site and observe an error. This happens when the number of requests that can be handled by a server exceeds its capacity, the Dos attack marking carting part of clouds inaccessible to the users. Usage of an Intrusion Detection System (IDS) one of the useful method of defense against this type of attacks.
+
+
+
+
+
+
+    \subsection{Managerial Issues}
+Most cloud-specific security and privacy challenges have their own managerial aspect. For example, the malicious insider challenge involves the problem of effectively managing employees to detect early warning signs and responding to policy violations in a timely manner once malicious insider incidents occur. These managerial challenges are non-technical in nature but also closely related to the technical solutions that could help cope with the corresponding technical challenges. 
+
+
+
+
+
+
+
+
+
+Implementing a technical solution and not managing it properly are bound to introduce vulnerabilities. For example, security management for virtualization, which is dramatically unlike that of traditional networks, requires knowledge and skill sets beyond the capabilities of the general network administrator, leading to increased management complexity and risks. Inappropriate VM management policies may cause the number of VMs to continuously grow while most of them are in the middle or sleep mode leading  to the host machine’s resource exhaustion.
+
+
+
+
+
+
+
+
+
+The fact that managerial challenges are overarching and add to the other challenges is what makes it one of the toughest challenges to deal with. CSPs have to make a decision on the scope of their managerial effort in order not to exhaust their resources before all their most critical security and privacy goals and objectives are met \cite{liu2015survey}.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tuần 7
+\section{Attacking vectors}
+% coppolino2017cloud.pdf
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Brute-Force Attacks}
+
+ A brute-force attack consists of an attacker submitting many passwords or passphrases with the hope of eventually guessing correctly.
+ The attacker systematically checks all possible passwords and passphrases until the correct one is found. Alternatively, the attacker can attempt to guess the key which is typically created from the password using a key derivation function.
+ This is known as an exhaustive key search.
+ In theory, be used to attempt to decrypt any encrypted data (except for data encrypted in an information-theoretically secure manner). Such an attack might be used when it is not possible to take advantage of other weaknesses in an encryption system (if any exist) that would make the task easier\cite{kanakam2022bruteforce}.
+ 
+ 
+ 
+  
+  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Distributed Denial of Service - DDoS Attack}
+\subsubsection{What is DDoS?}
+\par DDoS\cite{coppolino2017cloud} is one of the Network-Based Attacks, which come from the Internet. The network is one of the main vehicles of attacks against applications running on a cloud platform. Most of these attacks are direct descendants of attacks initially conceived for traditional technology, some were invented after the birth of cloud computing technology. Zargar\cite{coppolino2017cloud} made an exhaustive classification of DDoS flooding attacks, dividing them into two types based on the protocol level that they targeted: network/transport level and application level attacks. DDoS attacks are launched by affecting the victim in the following forms:
+    \begin{itemize}
+        \item Attackers can find some bug or weakness in the software implementation to disrupt the service.
+        \item Some attacks deplete all the bandwidth or resources of the victims' system.
+    \end{itemize}
+Attackers scan the network to find the machines which have some vulnerability. Then, the attacker uses these as agents, called zombie machines. Zombie machines use spoofed IPs. The design of the internet gives rise to many conditions causing denial of service attacks. Security on the internet is dependent on hosts. Attackers compromise the security of hosts to launch DDoS
+attacks and use spoofed IP addresses making it difficult to trace attack source. Further internet is full of hosts. It
+gives attackers various options, out of which vulnerable hosts are chosen\cite{deshmukh2015understanding}. Although widely known as a method of clogging transmission lines between servers on the Internet,
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Insider Threats}
+Insider threats is the most concerned cyber security problem which is poorly addressed by widely used security solutions. Despite the fact that there have been several scientific publications in this area, but from our innovative study classification and structural taxonomy proposals, we argue to provide the more information about insider threats   \cite{singh2022systematic}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Malware}
+Software that accomplishes deliberately the harmful purpose of an attacker is commonly known as malicious software or malware. Malware is a generic term that 
+used to describe many types of malicious software, such as viruses and worms. 
+This section discusses the purpose, categories and vulnerabilities of malware attacks in the wireless networks     \cite{divya2013survey}. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Purpose of malware}
+The purpose of Malware is to cause damage or penetrate users computer for the purpose of hacking personal data for illegal activity such as financial crimes. Many DoS viruses, and the 
+Windows Explore Zip worm, are designed to demolish files on a hard disk, or to corrupt the file system by writing void data to them. Profit category of malware develop spyware that are programs designed to monitor display unsolicited advertisements, users' web browsing, or 
+redirect affiliate marketing revenues to the spyware creators.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Categories of Malware}
+
+\textcolor{red}{\lipsum[1]}
+
+
+
+
+ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Malware Vulnerabilities}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 1.1]{pictures/malwarevulnerablity.png}
+\caption{Malware vulnerablity}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Phising}
+A phishing attack is a cyber-attack where the attacker will send the email and try to extract the credentials from the victim and the attacker
+will use the data to extract the information. The email sent to the victim will ask the login credentials for a particular website by pretending like the
+original website the user will give the credentials in the website thinking as original one but these credentials will be sent to the attacker and the attacker
+will use legitimate website to login and this will cause huge potential damage. There are different types of phishing attacks like spear phishing, whaling,
+pharming these are implemented on the basis of the type of person the attacker is attacking and the knowledge of the attacker also.\cite{kanakam2022bruteforce}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Unpatched Applications or Servers (Zero-Day Attack)}
+
+
+The Zero-day attack is a computer attack that exploits a vulnerability (the vulnerability is a weakness in the software or in a security policy that allows the attacker to gain access to the system) that has not been known to the public yet. Its aim is gaining illegal access or threat a running system . It is very difficult to defend against zero-day attack, since it is always detected after the system has been compromised, while the vulnerability has no known signature and no mechanism to stop or detect the zero-day attack [12]. Once the vulnerability has been announced to the public, system administrator can patch the system, and the antivirus companies can insert it in to the signature update.
+ zero-day attack cannot be tackled, due to the lack of information about the attack’s nature. Discovering the zero-day vulnerability and figuring out how to stop it is a very difficult task. The zero-day vulnerability is considered as the most harmful threat for computer organizations, because their system and services are exposed to the public network and to the attacker before the patch becomes available. Generally, there are four kinds of traditional defense technology against attacks: statistical-based,signature-based, behavior-based, and hybrid-based . 
+
+
+
+\cite{al2019zero}.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Current techniques to cope with attacks}
+
+
+
+
+\textcolor{red}{\lipsum[1]}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Future solutions and directions}
+
+
+
+
+
+
+\textcolor{red}{\lipsum[1]}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\refname}{REFERENCES}
+\bibliographystyle{plain}
+\bibliography{References}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document} % Kết thúc
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
