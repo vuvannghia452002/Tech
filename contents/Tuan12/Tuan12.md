@@ -32,7 +32,17 @@ The paper should focus on insider threats challenges and its prevention.
 
 <!-- Summary of results received \cite{singh2022systematic}: -->
 
-![alt text](image-1.png)
+![alt text](Summary_of_results_Insider_Threats.png)
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{pictures/Attacking_vectors/Summary_of_results_Insider_Threats.PNG}
+    \caption{Summary of results Insider Threats} 
+    \label{fig:Summary_of_results_Insider_Threats}
+\end{figure}
+
+
 
 All the papers has basic information about threat types and its detection.
 
@@ -55,7 +65,7 @@ To detect the intrusion, an Intrusion Detection System (IDS) is used. To detect 
 
 <!-- Để phát hiện sự xâm nhập, Hệ thống phát hiện xâm nhập (IDS) được sử dụng. Chức năng chính của nó là phát hiện sự xâm nhập và phản hồi kịp thời. -->
 
-Based on the deployment IDS broadly classified into 2 types: Host based Intrusion Detection System (HIDS) and Network based Intrusion Detection System (NIDS). 11111111111111111111111
+Based on the deployment IDS broadly classified into 2 types: Host based Intrusion Detection System (HIDS) and Network based Intrusion Detection System (NIDS).  Here is an overview of the two types \cite{leu2015internal}:     
 
 <!-- Dựa trên IDS triển khai được phân loại rộng rãi thành hai loại, tức là Hệ thống phát hiện xâm nhập dựa trên máy chủ (HIDS) và Hệ thống phát hiện xâm nhập dựa trên mạng (NIDS). -->
 
@@ -70,14 +80,3 @@ For instance, when an attacker tries to create/modify/delete key system files al
 Network Intrusion Detection System (NIDS) continuously monitor and analyze the network traffic. To classify as malicious or non-malicious traffic it examines the incoming network traffic. If any predefined patterns or signatures of malicious behavior are present it re-assembles the packets, examine the headers/payload portion and determine.
 
 <!-- Hệ thống phát hiện xâm nhập mạng (NIDS) liên tục giám sát và phân tích lưu lượng mạng. Để phân loại là lưu lượng truy cập độc hại hoặc không độc hại nó kiểm tra lưu lượng mạng đến. Nếu có bất kỳ mẫu hoặc dấu hiệu xác định trước nào của hành vi nguy hiểm thì nó tập hợp lại các gói tin, kiểm tra phần tiêu đề/tải trọng và xác định -->
-
-@article{leu2015internal,
-title={An internal intrusion detection and protection system by using data mining and forensic techniques},
-author={Leu, Fang-Yie and Tsai, Kun-Lin and Hsiao, Yi-Ting and Yang, Chao-Tung},
-journal={IEEE Systems Journal},
-volume={11},
-number={2},
-pages={427--438},
-year={2015},
-publisher={IEEE}
-}
