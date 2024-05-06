@@ -14,7 +14,7 @@ To solve this problem, the goal is to classify knowledge organizations within th
 
 According to research \cite{singh2022systematic}, by passing keywords to the search engine. The Boolean AND and OR were used to conduct the search. The search terms were: Insider Threats, Insider Threat Detection, Computer Threats, Security. The platforms searched were: IEEE Xplore Digital Library, ScienceDirect, SpringerLink, ACM Digital Library, Google Scholar. With the following criteria:
 
-<!-- Inclusion Criteria  -->
+<!-- Inclusion Criteria -->
 
 The paper should focus on the insider threats and its types.
 
@@ -33,6 +33,7 @@ The paper should focus on insider threats challenges and its prevention.
 <!-- Summary of results received \cite{singh2022systematic}: -->
 
 ![alt text](image-1.png)
+
 All the papers has basic information about threat types and its detection.
 
 It is clear from Fig xxxxxxxxxx, that majority of studies were focused on threat detection and threat mitigation in insider threats.
@@ -47,14 +48,3 @@ The third most popular among the primary studies was, modeling human behaviors t
 At the last comes the types of threat, which makes up 11 Percent of the total studies.
 
 \subsubsection{Detection and Protection System}
-
-<!-- \subsubsection{Hệ thống phát hiện và bảo vệ} -->
-
-To detect the intrusion, an Intrusion Detection System (IDS) is used. To detect the intrusion and respond in timely manner is its prime function.
-
-<!-- Để phát hiện sự xâm nhập, Hệ thống phát hiện xâm nhập (IDS) được sử dụng. Chức năng chính của nó là phát hiện sự xâm nhập và phản hồi kịp thời. -->
-
-<!-- - **Benefits of Digital Forensic Technique**: This technique helps maintain the integrity and reliability of evidence for later examination. Captured images can be used as evidence in court. -->
-<!-- - **Lợi ích của Kỹ thuật Pháp y Kỹ thuật số**: Kỹ thuật này giúp duy trì tính toàn vẹn và độ tin cậy của bằng chứng cho việc kiểm tra sau này. Những hình ảnh được chụp có thể được sử dụng làm bằng chứng trước tòa. -->
-
-![alt text](image.png)
