@@ -80,3 +80,8 @@ For instance, when an attacker tries to create/modify/delete key system files al
 Network Intrusion Detection System (NIDS) continuously monitor and analyze the network traffic. To classify as malicious or non-malicious traffic it examines the incoming network traffic. If any predefined patterns or signatures of malicious behavior are present it re-assembles the packets, examine the headers/payload portion and determine.
 
 <!-- Hệ thống phát hiện xâm nhập mạng (NIDS) liên tục giám sát và phân tích lưu lượng mạng. Để phân loại là lưu lượng truy cập độc hại hoặc không độc hại nó kiểm tra lưu lượng mạng đến. Nếu có bất kỳ mẫu hoặc dấu hiệu xác định trước nào của hành vi nguy hiểm thì nó tập hợp lại các gói tin, kiểm tra phần tiêu đề/tải trọng và xác định -->
+
+
+<!-- Dịch tiếng Việt bên dưới TA -->
+<!-- Thêm vào báo cáo -->
+<!-- Thêm vào slide -->
