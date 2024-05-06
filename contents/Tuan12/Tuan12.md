@@ -14,7 +14,7 @@ To solve this problem, the goal is to classify knowledge organizations within th
 
 According to research \cite{singh2022systematic}, by passing keywords to the search engine. The Boolean AND and OR were used to conduct the search. The search terms were: Insider Threats, Insider Threat Detection, Computer Threats, Security. The platforms searched were: IEEE Xplore Digital Library, ScienceDirect, SpringerLink, ACM Digital Library, Google Scholar. With the following criteria:
 
-<!-- Inclusion Criteria -->
+<!-- Inclusion Criteria  -->
 
 The paper should focus on the insider threats and its types.
 
@@ -34,6 +34,8 @@ The paper should focus on insider threats challenges and its prevention.
 
 ![alt text](image-1.png)
 
+
+
 All the papers has basic information about threat types and its detection.
 
 It is clear from Fig xxxxxxxxxx, that majority of studies were focused on threat detection and threat mitigation in insider threats.
@@ -48,3 +50,51 @@ The third most popular among the primary studies was, modeling human behaviors t
 At the last comes the types of threat, which makes up 11 Percent of the total studies.
 
 \subsubsection{Detection and Protection System}
+
+<!-- \subsubsection{Hệ thống phát hiện và bảo vệ} -->
+
+To detect the intrusion, an Intrusion Detection System (IDS) is used. To detect the intrusion and respond in timely manner is its prime function.
+
+<!-- Để phát hiện sự xâm nhập, Hệ thống phát hiện xâm nhập (IDS) được sử dụng. Chức năng chính của nó là phát hiện sự xâm nhập và phản hồi kịp thời. -->
+
+
+
+ 
+
+
+
+
+
+
+Based on the deployment IDS broadly classified into 2  types: Host based Intrusion Detection System (HIDS) and Network based Intrusion Detection System (NIDS).  11111111111111111111111
+
+<!-- Dựa trên IDS triển khai được phân loại rộng rãi thành hai loại, tức là Hệ thống phát hiện xâm nhập dựa trên máy chủ (HIDS) và Hệ thống phát hiện xâm nhập dựa trên mạng (NIDS). -->
+
+Host based Intrusion Detection System is configured on a particular system/server. It continuously monitor and analyzes the  activities  the  system  where  it  is  configured.  Whenever  an  intrusion  is  detected  HIDS  triggers  an  alert.   
+
+For  instance,  when an attacker tries to create/modify/delete key  system files alert will be generated. Major advantages of the HIDS  that  it  analyzes  the  incoming  encrypted  traffic  which  cannot  be  detected  NIDS.  To  detect  the  attack  like  Denial  of  Service  (DoS)  attacks,  Port  Scans,  Distributed  Denial  of  Service  (DDoS)  attack, ...
+<!-- Hệ thống phát hiện xâm nhập dựa trên máy chủ được cấu hình trên một hệ thống/máy chủ cụ thể. Nó liên tục theo dõi và phân tích các hoạt động của hệ thống nơi nó được cấu hình. Bất cứ khi nào phát hiện sự xâm nhập, HIDS sẽ kích hoạt cảnh báo. -->
+
+<!-- Ví dụ: Khi kẻ tấn công cố gắng tạo/sửa đổi/xóa các tệp hệ thống chính, cảnh báo sẽ được tạo. Ưu điểm chính của HIDS rằng nó phân tích lưu lượng được mã hóa đến mà NIDS không thể phát hiện được. Để phát hiện cuộc tấn công như Denial of Các cuộc tấn công dịch vụ (DoS), Quét cổng, tấn công từ chối dịch vụ phân tán (DDoS), v.v. -->
+
+
+Network  Intrusion  Detection  System (NIDS) continuously monitor and analyze the network traffic. To classify as malicious or non-malicious traffic  it examines the incoming network traffic. If any predefined patterns or signatures of malicious behavior are present it  re-assembles the packets, examine the headers/payload portion and determine. 
+<!-- Hệ thống phát hiện xâm nhập mạng (NIDS) liên tục giám sát và phân tích lưu lượng mạng. Để phân loại là lưu lượng truy cập độc hại hoặc không độc hại nó kiểm tra lưu lượng mạng đến. Nếu có bất kỳ mẫu hoặc dấu hiệu xác định trước nào của hành vi nguy hiểm thì nó tập hợp lại các gói tin, kiểm tra phần tiêu đề/tải trọng và xác định -->
+ 
+
+
+
+
+
+
+
+@article{leu2015internal,
+  title={An internal intrusion detection and protection system by using data mining and forensic techniques},
+  author={Leu, Fang-Yie and Tsai, Kun-Lin and Hsiao, Yi-Ting and Yang, Chao-Tung},
+  journal={IEEE Systems Journal},
+  volume={11},
+  number={2},
+  pages={427--438},
+  year={2015},
+  publisher={IEEE}
+}
