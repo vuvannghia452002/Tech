@@ -1,4 +1,4 @@
-<!-- \cite{singh2022systematic} -->
+
 
 \subsection{Insider Threats}
 
@@ -12,15 +12,43 @@ To solve this problem, the goal is to classify knowledge organizations within th
 <!-- Để giải quyết vấn đề này, mục tiêu là phân loại các tổ chức tri thức trong phạm vi nghiên cứu mối đe dọa. Bằng cách áp dụng các thuật toán học máy và phân tích các nghiên cứu quy mô lớn về phát hiện các mối đe dọa nội bộ, quá trình phát triển bao gồm việc phân loại nhân sự nội bộ hiện tại thành các danh mục, cấp độ quyền truy cập khác nhau và động cơ đằng sau chúng. -->
 \subsubsection{Classification results}
 <!-- \subsubsection{Kết quả phân loại} -->
-<!-- Nghiên cứu -->
+According to research \cite{singh2022systematic},     by passing keywords to the   search engine.    The Boolean AND and OR were used to conduct the search. The search terms were: Insider Threats, Insider Threat Detection, Computer Threats, Security.  The platforms searched were:  IEEE Xplore Digital Library, ScienceDirect, SpringerLink,  ACM Digital Library,  Google Scholar. With the following criteria:
 
 
-<!-- Hệ thống -->
-<!-- Kết quả của ... hình tròn -->
-Theo sách từ 100-50 ta có kết quả .... 
-Theo sách từ 100-50 ta có kết quả .... 
-Theo sách từ 100-50 ta có kết quả .... 
-Theo sách từ 100-50 ta có kết quả .... 
+
+<!-- Inclusion Criteria  -->
+The paper should focus on the insider threats and its types.
+
+The paper should highlight the insider detection techniques.
+
+The paper should focus on insider threats challenges and its prevention.
+
+<!-- Exclusion criteria -->
+The papers should not be about types of threats, it should focus only on insider threats to the cyber world.
+
+Papers published after 2020.
+
+The paper should focus on insider threats challenges and its prevention.
+
+<!-- Summary of results received \cite{singh2022systematic}: -->
+ ![alt text](image-1.png)
+   All the papers has basic information about threat types and its detection. 
+
+It is clear from Fig xxxxxxxxxx,  that majority of studies were focused on threat detection and threat mitigation in insider threats. 
+
+
+Fig xxxxxxxxxx, shows the graphical representation of subdivided categories and their applications in insider threats. 
+
+
+The themes found in primary studies shows
+that threat detection and threat mitigation are the most popular security application in insider threats, with both comprising of 35 percent each respectively. 
+ 
+
+
+The third most popular among the primary studies was, modeling human behaviors to detect the insider threat attack (behavior model). It comprises of 19 Percent of the total studies. 
+
+
+At the last comes the types of threat, which makes up 11 Percent of the total studies.
  
 
 \subsubsection{Detection and  Protection System}
