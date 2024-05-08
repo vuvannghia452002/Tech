@@ -104,4 +104,48 @@ Hitlist Scan maintains a list of vulnerable IP addresses and conducts scans acco
 <!-- Hitlist Scan duy trì danh sách các địa chỉ IP dễ bị tấn công và tiến hành quét tương ứng. Sau khi xác định được máy chủ dễ bị tấn công, bước tiếp theo là phát hiện các lỗ hổng của nó để giành quyền kiểm soát. -->
 <!-- !  -->
 
+DDoS Classification
+
+<!-- Phân loại DDoS -->
+
+In "DDoS attack" includes "Bandwidth Depletion" and "Resource Deplition"
+
+<!-- Trong “Tấn công DDoS” bao gồm “Cạn kiệt băng thông” và “Cạn kiệt tài nguyên” -->
+
+In "Bandwidth Depletion" includes "Flooding attack" and "Amplification attack"
+
+<!-- Trong "Cạn kiệt băng thông" bao gồm “Tấn công lũ lụt” và “Tấn công khuếch đại” -->
+
+In "Resource Deplition" include "Protocol vulnerability exploitation" and "Malformed packet"
+
+<!-- Trong “Cạn kiệt tài nguyên” bao gồm "Khai thác lỗ hổng giao thức" và "Gói không đúng định dạng" -->
+
+<!-- !  -->
+
+
+
+<!-- !  -->
+
+
+
+<!-- !  -->
+
+
+
+<!-- !  -->
+
+
+
+<!-- !  -->
+
+
+
+<!-- !  -->
+
+
+
+<!-- !  -->
+
+
+
 <!-- !  -->
