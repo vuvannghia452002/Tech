@@ -124,28 +124,82 @@ In "Resource Deplition" include "Protocol vulnerability exploitation" and "Malfo
 
 
 
-<!-- !  -->
+\begin{frame}{DDoS Classification}
+    \begin{itemize}
+        \item \textbf{Bandwidth Depletion Attacks:} This type of attack consumes the bandwidth of the victim or target system by flooding the unwanted traffic to prevent the traffic from reaching the victim network. 
+        \item \textbf{Resource Depletion Attacks:} The DDoS Resource depletion attack is targeted to exhaust the victim system’s resources, so that the users are not serviced.
+    \end{itemize}
+\end{frame}
 
 
 
 <!-- !  -->
 
-
-
-<!-- !  -->
-
-
-
-<!-- !  -->
-
-
-
-<!-- !  -->
-
-
-
-<!-- !  -->
+\begin{frame}{UDP Attack}
+    \begin{itemize}
+        \item \textbf{Flood Attacks:} launched by attacker sending a huge volume of traffic to the victim with the help of zombies that clog up the victim’s network bandwidth with IP traffic. A flood attack is initiated by UDP (User Datagram packets) and ICMP (Internet Control Message Protocol), with the following UDP attack steps\cite{deshmukh2015understanding}:
+        \begin{enumerate}
+            \item A large number of UDP packets are sent to the victim system’s random or specified ports.
+            \item On receiving the packets, the victim system looks at the destination ports to identify the applications waiting on the port.
+            \item When there is no application, it generates an ICMP packet with a message “destination unreachable”.
+            \item The return packets from the victim are sent to the spoofed address and not to the zombies.
+        \end{enumerate}
+    \end{itemize}
+\end{frame}
 
 
 
 <!-- !  -->
+
+\begin{frame}{ICMP Attack}
+    \begin{itemize}
+        \item   ICMP attack steps\cite{deshmukh2015understanding}:
+        \begin{enumerate}
+            \item Attacker sends a large number of ICMP ECHO REPLY i.e. ping packets to the victim system with the help of zombies (agents). This kind of packets requires a response message from the victim.
+            \item The victim sends the responses to the packets received.
+            \item Now the network is clogged with request response traffic. The spoofed IP address may be used in the ICMP packet.
+        \end{enumerate}
+    \end{itemize}
+\end{frame}
+
+
+
+<!-- !  -->
+
+\begin{frame}{Amplification attacks}
+    \begin{itemize}
+        \item This is a type of DDoS attack that uses the IP broadcast protocol.
+        \item The attacker sends packets to the broadcast address, causing systems within that address range to respond to the victim's system, generating malicious network traffic.
+        \item This type of attack takes advantage of the broadcast address feature in network devices such as routers.
+        \item This can be done directly by the attacker or through control of the clients.
+        \item Typical examples of this type of attack include Smurf and Fraggle attacks\cite{deshmukh2015understanding}.
+    \end{itemize}
+\end{frame}
+
+
+
+<!-- !  -->
+
+\begin{frame}{Resource Depletion Attacks}
+    \begin{itemize}
+    \item \textbf{Protocol Exploit Attacks:} The goal of these attacks is to consume the surplus quantity of resources from the victim by exploiting the specific feature of the protocol installed in the victim. TCP SYN attacks are the best example of this type. The other examples of Protocol exploit attacks are PUSH + ACK attack.
+    \item \textbf{Malformed Packet Attacks:} The term malformed packet refers to the packet wrapped with malicious information or data. The attacker sends these packets to the victim to crash it. This can be performed in two ways: 
+\end{itemize}
+\end{frame}
+
+
+
+<!-- !  -->
+
+\begin{frame}{Malformed Packet Attacks}
+    \begin{itemize}
+        \item[] \textbf{IP Address attack:} The malformed packet is wrapped with same source and destination IP address thus creating chaos in the operating system of victim. By this way it rapidly slows down and crashes the victim.
+        \item[] \textbf{IP packet options attack:} Each of the IP packets consists of the optional fields to carry additional information. This attack makes use of these fields to form the malformed packet. The optional fields are filled by setting all the quality of service bits to one. So the victim spends additional time to process this packet. This attack is more vulnerable when attacked by more than one zombie.
+    \end{itemize}
+\end{frame}
+
+
+
+<!-- !  -->
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
