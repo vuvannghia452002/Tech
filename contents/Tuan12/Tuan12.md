@@ -1,7 +1,27 @@
-Để giải quyết vấn đề này, mục tiêu là phân loại các tổ chức tri thức trong phạm vi nghiên cứu mối đe dọa.
+Hello every one,
 
+Today, I'm here to talk about "Distributed Denial of Service - DDoS Attack".
 
- Bằng cách áp dụng các thuật toán học máy và phân tích các nghiên cứu quy mô lớn về phát hiện các mối đe dọa nội bộ, quá trình phát triển bao gồm việc phân loại nhân sự nội bộ hiện tại thành các danh mục, cấp độ quyền truy cập khác nhau và động cơ đằng sau chúng.
+<!-- !  -->
 
+What is DDoS?
 
+<!-- DDoS là gì? -->
 
+DDoS[3] is one of the Network-Based Attacks, which come from the Internet.
+
+<!-- • DDoS [3] là một trong những cuộc tấn công dựa trên mạng xuất phát từ Internet. -->
+
+DDoS attacks are launched by affecting the victim in the following forms[4]:
+
+<!-- • Các cuộc tấn công DDoS được phát động bằng cách tác động đến nạn nhân dưới các hình thức sau[4]: -->
+
+▶ Attackers can find some bug or weakness in the software implementation to disrupt the service.
+
+<!-- ► Những kẻ tấn công có thể tìm thấy một số lỗi hoặc điểm yếu trong quá trình triển khai phần mềm để làm gián đoạn dịch vụ. -->
+
+▶ Some attacks deplete all the bandwidth or resources of the victims’ system.
+
+<!-- ► Một số cuộc tấn công làm cạn kiệt toàn bộ băng thông hoặc tài nguyên của hệ thống nạn nhân. -->
+
+<!-- !  -->
