@@ -143,7 +143,7 @@ The Master communicates with agents via handlers.
 
 <!-- Master giao tiếp với các đại lý thông qua các trình xử lý. -->
 
- 
+
 
 <!-- !  -->
 
@@ -234,7 +234,7 @@ In "Resource Deplition" include "Protocol vulnerability exploitation" and "Malfo
 
 <!-- Trong “Cạn kiệt tài nguyên” bao gồm "Khai thác lỗ hổng giao thức" và "Gói không đúng định dạng" -->
 
- 
+
 
 <!-- !  -->
 
@@ -289,7 +289,7 @@ The return packets from the victim are sent to the spoofed address and not to th
 ```
 
 <!-- Các gói tin trả lại từ nạn nhân sẽ được gửi đến địa chỉ giả mạo chứ không phải đến zombie. -->
- 
+
 
 <!-- !  -->
 
@@ -323,7 +323,7 @@ Now the network is clogged with request response traffic. The spoofed IP address
 
 <!-- Bây giờ mạng bị tắc do lưu lượng phản hồi yêu cầu. Địa chỉ IP giả mạo có thể được sử dụng trong gói ICMP. -->
 
- 
+
 
 <!-- !  -->
 
@@ -373,7 +373,7 @@ Typical examples of this type of attack include Smurf and Fraggle attacks
 
 <!-- Các ví dụ điển hình của kiểu tấn công này bao gồm các cuộc tấn công Smurf và Fraggle -->
 
- 
+
 
 <!-- !  -->
 
@@ -412,10 +412,10 @@ Malformed Packet Attacks
 IP Address attack: The malformed packet is wrapped with same source and destination IP address thus creating chaos in the operating system of victim. By this way it rapidly slows down and crashes the victim.
 
 ````
- <!-- Tấn công địa chỉ IP: Gói không đúng định dạng được bọc cùng địa chỉ IP nguồn và đích, do đó tạo ra sự hỗn loạn trong hệ điều hành của nạn nhân. Bằng cách này, nó nhanh chóng chậm lại và đâm vào nạn nhân. -->
+<!-- Tấn công địa chỉ IP: Gói không đúng định dạng được bọc cùng địa chỉ IP nguồn và đích, do đó tạo ra sự hỗn loạn trong hệ điều hành của nạn nhân. Bằng cách này, nó nhanh chóng chậm lại và đâm vào nạn nhân. -->
 
 ````
 IP packet options attack: Each of the IP packets consists of the optional fields to carry additional information. This attack makes use of these fields to form the malformed packet. The optional fields are filled by setting all the quality of service bits to one. So the victim spends additional time to process this packet. This attack is more vulnerable when attacked by more than one zombie.
 
 ````
- <!-- Tấn công tùy chọn gói IP: Mỗi gói IP bao gồm các trường tùy chọn để mang thông tin bổ sung. Cuộc tấn công này sử dụng các trường này để tạo thành gói không đúng định dạng. Các trường tùy chọn được điền bằng cách đặt tất cả các bit chất lượng dịch vụ thành một. Vì vậy nạn nhân dành thêm thời gian để xử lý gói tin này. Cuộc tấn công này dễ bị tổn thương hơn khi bị tấn công bởi nhiều zombie. -->
+<!-- Tấn công tùy chọn gói IP: Mỗi gói IP bao gồm các trường tùy chọn để mang thông tin bổ sung. Cuộc tấn công này sử dụng các trường này để tạo thành gói không đúng định dạng. Các trường tùy chọn được điền bằng cách đặt tất cả các bit chất lượng dịch vụ thành một. Vì vậy nạn nhân dành thêm thời gian để xử lý gói tin này. Cuộc tấn công này dễ bị tổn thương hơn khi bị tấn công bởi nhiều zombie. -->
