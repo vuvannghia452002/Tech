@@ -122,84 +122,97 @@ In "Resource Deplition" include "Protocol vulnerability exploitation" and "Malfo
 
 <!-- !  -->
 
+Bandwidth Depletion Attacks: This type of attack consumes the bandwidth of the victim or target system by flooding the unwanted traffic to prevent the traffic from reaching the victim network.
 
+<!-- Tấn công làm suy giảm băng thông: Kiểu tấn công này tiêu tốn băng thông của nạn nhân hoặc hệ thống đích bằng cách làm tràn lưu lượng truy cập không mong muốn để ngăn chặn lưu lượng truy cập vào mạng nạn nhân. -->
 
-\begin{frame}{DDoS Classification}
-    \begin{itemize}
-        \item \textbf{Bandwidth Depletion Attacks:} This type of attack consumes the bandwidth of the victim or target system by flooding the unwanted traffic to prevent the traffic from reaching the victim network. 
-        \item \textbf{Resource Depletion Attacks:} The DDoS Resource depletion attack is targeted to exhaust the victim system’s resources, so that the users are not serviced.
-    \end{itemize}
-\end{frame}
+Resource Depletion Attacks: The DDoS Resource depletion attack is targeted to exhaust the victim system’s resources, so that the users are not serviced.
 
-
+<!-- Tấn công làm cạn kiệt tài nguyên: Cuộc tấn công làm cạn kiệt tài nguyên DDoS nhằm mục đích làm cạn kiệt tài nguyên của hệ thống nạn nhân, khiến người dùng không được phục vụ. -->
 
 <!-- !  -->
 
-\begin{frame}{UDP Attack}
-    \begin{itemize}
-        \item \textbf{Flood Attacks:} launched by attacker sending a huge volume of traffic to the victim with the help of zombies that clog up the victim’s network bandwidth with IP traffic. A flood attack is initiated by UDP (User Datagram packets) and ICMP (Internet Control Message Protocol), with the following UDP attack steps\cite{deshmukh2015understanding}:
-        \begin{enumerate}
-            \item A large number of UDP packets are sent to the victim system’s random or specified ports.
-            \item On receiving the packets, the victim system looks at the destination ports to identify the applications waiting on the port.
-            \item When there is no application, it generates an ICMP packet with a message “destination unreachable”.
-            \item The return packets from the victim are sent to the spoofed address and not to the zombies.
-        \end{enumerate}
-    \end{itemize}
-\end{frame}
+Flood Attacks: launched by attacker sending a huge volume of traffic to the victim with the help of zombies that clog up the victim’s network bandwidth with IP traffic. A flood attack is initiated by UDP (User Datagram packets) and ICMP (Internet Control Message Protocol), with the following UDP attack steps:
 
+<!-- Flood Attacks: do kẻ tấn công thực hiện gửi một lượng lớn lưu lượng truy cập đến nạn nhân với sự trợ giúp của zombie làm tắc nghẽn băng thông mạng của nạn nhân bằng lưu lượng IP. Một cuộc tấn công lũ lụt được bắt đầu bởi UDP (gói Datagram người dùng) và ICMP (Giao thức thông báo điều khiển Internet), với các bước tấn công UDP sau: -->
 
+A large number of UDP packets are sent to the victim system’s random or specified ports.
+
+<!-- Một số lượng lớn các gói UDP được gửi đến các cổng ngẫu nhiên hoặc cổng được chỉ định của hệ thống nạn nhân. -->
+
+On receiving the packets, the victim system looks at the destination ports to identify the applications waiting on the port.
+
+<!-- Khi nhận được gói tin, hệ thống nạn nhân sẽ nhìn vào các cổng đích để xác định các ứng dụng đang chờ trên cổng. -->
+
+When there is no application, it generates an ICMP packet with a message “destination unreachable”.
+
+<!-- Khi không có ứng dụng, nó sẽ tạo ra một gói ICMP với thông báo “không thể truy cập đích”. -->
+
+The return packets from the victim are sent to the spoofed address and not to the zombies.
+
+<!-- Các gói tin trả lại từ nạn nhân sẽ được gửi đến địa chỉ giả mạo chứ không phải đến zombie. -->
+<!-- !  -->
+
+ICMP attack steps:
+
+<!-- Các bước tấn công ICMP: -->
+
+Attacker sends a large number of ICMP ECHO REPLY i.e. ping packets to the victim system with the help of zombies (agents). This kind of packets requires a response message from the victim.
+
+<!-- Kẻ tấn công gửi một số lượng lớn ICMP ECHO REPLY, tức là các gói ping đến hệ thống nạn nhân với sự trợ giúp của zombie (đặc vụ). Loại gói tin này yêu cầu một tin nhắn phản hồi từ nạn nhân. -->
+
+The victim sends the responses to the packets received.
+
+<!-- Nạn nhân gửi phản hồi cho các gói nhận được. -->
+
+Now the network is clogged with request response traffic. The spoofed IP address may be used in the ICMP packet.
+
+<!-- Bây giờ mạng bị tắc do lưu lượng phản hồi yêu cầu. Địa chỉ IP giả mạo có thể được sử dụng trong gói ICMP. -->
 
 <!-- !  -->
 
-\begin{frame}{ICMP Attack}
-    \begin{itemize}
-        \item   ICMP attack steps\cite{deshmukh2015understanding}:
-        \begin{enumerate}
-            \item Attacker sends a large number of ICMP ECHO REPLY i.e. ping packets to the victim system with the help of zombies (agents). This kind of packets requires a response message from the victim.
-            \item The victim sends the responses to the packets received.
-            \item Now the network is clogged with request response traffic. The spoofed IP address may be used in the ICMP packet.
-        \end{enumerate}
-    \end{itemize}
-\end{frame}
+Amplification attacks
 
+<!-- Tấn công khuếch đại -->
 
+This is a type of DDoS attack that uses the IP broadcast protocol.
 
-<!-- !  -->
+<!-- Đây là một kiểu tấn công DDoS sử dụng giao thức quảng bá IP. -->
 
-\begin{frame}{Amplification attacks}
-    \begin{itemize}
-        \item This is a type of DDoS attack that uses the IP broadcast protocol.
-        \item The attacker sends packets to the broadcast address, causing systems within that address range to respond to the victim's system, generating malicious network traffic.
-        \item This type of attack takes advantage of the broadcast address feature in network devices such as routers.
-        \item This can be done directly by the attacker or through control of the clients.
-        \item Typical examples of this type of attack include Smurf and Fraggle attacks\cite{deshmukh2015understanding}.
-    \end{itemize}
-\end{frame}
+The attacker sends packets to the broadcast address, causing systems within that address range to respond to the victim's system, generating malicious network traffic.
 
+<!-- Kẻ tấn công gửi các gói đến địa chỉ quảng bá, khiến các hệ thống trong phạm vi địa chỉ đó phản hồi lại hệ thống của nạn nhân, tạo ra lưu lượng truy cập mạng độc hại. -->
 
+This type of attack takes advantage of the broadcast address feature in network devices such as routers.
+
+<!-- Kiểu tấn công này lợi dụng tính năng địa chỉ quảng bá trong các thiết bị mạng như bộ định tuyến. -->
+
+This can be done directly by the attacker or through control of the clients.
+
+<!-- Điều này có thể được thực hiện trực tiếp bởi kẻ tấn công hoặc thông qua sự kiểm soát của khách hàng. -->
+
+Typical examples of this type of attack include Smurf and Fraggle attacks
+
+<!-- Các ví dụ điển hình của kiểu tấn công này bao gồm các cuộc tấn công Smurf và Fraggle -->
 
 <!-- !  -->
 
-\begin{frame}{Resource Depletion Attacks}
-    \begin{itemize}
-    \item \textbf{Protocol Exploit Attacks:} The goal of these attacks is to consume the surplus quantity of resources from the victim by exploiting the specific feature of the protocol installed in the victim. TCP SYN attacks are the best example of this type. The other examples of Protocol exploit attacks are PUSH + ACK attack.
-    \item \textbf{Malformed Packet Attacks:} The term malformed packet refers to the packet wrapped with malicious information or data. The attacker sends these packets to the victim to crash it. This can be performed in two ways: 
-\end{itemize}
-\end{frame}
+Resource Depletion Attacks
 
+<!-- Tấn công làm cạn kiệt tài nguyên -->
 
+Protocol Exploit Attacks: The goal of these attacks is to consume the surplus quantity of resources from the victim by exploiting the specific feature of the protocol installed in the victim. TCP SYN attacks are the best example of this type. The other examples of Protocol exploit attacks are PUSH + ACK attack.
 
+<!-- Tấn công khai thác giao thức: Mục tiêu của các cuộc tấn công này là tiêu thụ lượng tài nguyên dư thừa từ nạn nhân bằng cách khai thác tính năng cụ thể của giao thức được cài đặt trên nạn nhân. Các cuộc tấn công TCP SYN là ví dụ điển hình nhất của loại này. Các ví dụ khác về tấn công khai thác Giao thức là tấn công PUSH + ACK. -->
+
+Malformed Packet Attacks: The term malformed packet refers to the packet wrapped with malicious information or data. The attacker sends these packets to the victim to crash it. This can be performed in two ways:
+
+<!-- Tấn công gói không đúng định dạng: Thuật ngữ gói không đúng định dạng dùng để chỉ gói được bao bọc bằng thông tin hoặc dữ liệu độc hại. Kẻ tấn công gửi các gói này đến nạn nhân để phá hủy nó. Điều này có thể được thực hiện theo hai cách: -->
 <!-- !  -->
 
 \begin{frame}{Malformed Packet Attacks}
-    \begin{itemize}
-        \item[] \textbf{IP Address attack:} The malformed packet is wrapped with same source and destination IP address thus creating chaos in the operating system of victim. By this way it rapidly slows down and crashes the victim.
-        \item[] \textbf{IP packet options attack:} Each of the IP packets consists of the optional fields to carry additional information. This attack makes use of these fields to form the malformed packet. The optional fields are filled by setting all the quality of service bits to one. So the victim spends additional time to process this packet. This attack is more vulnerable when attacked by more than one zombie.
-    \end{itemize}
+\begin{itemize}
+\item[] \textbf{IP Address attack:} The malformed packet is wrapped with same source and destination IP address thus creating chaos in the operating system of victim. By this way it rapidly slows down and crashes the victim.
+\item[] \textbf{IP packet options attack:} Each of the IP packets consists of the optional fields to carry additional information. This attack makes use of these fields to form the malformed packet. The optional fields are filled by setting all the quality of service bits to one. So the victim spends additional time to process this packet. This attack is more vulnerable when attacked by more than one zombie.
+\end{itemize}
 \end{frame}
-
-
-
-<!-- !  -->
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
