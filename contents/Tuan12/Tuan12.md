@@ -210,9 +210,14 @@ Malformed Packet Attacks: The term malformed packet refers to the packet wrapped
 <!-- Tấn công gói không đúng định dạng: Thuật ngữ gói không đúng định dạng dùng để chỉ gói được bao bọc bằng thông tin hoặc dữ liệu độc hại. Kẻ tấn công gửi các gói này đến nạn nhân để phá hủy nó. Điều này có thể được thực hiện theo hai cách: -->
 <!-- !  -->
 
-\begin{frame}{Malformed Packet Attacks}
-\begin{itemize}
-\item[] \textbf{IP Address attack:} The malformed packet is wrapped with same source and destination IP address thus creating chaos in the operating system of victim. By this way it rapidly slows down and crashes the victim.
-\item[] \textbf{IP packet options attack:} Each of the IP packets consists of the optional fields to carry additional information. This attack makes use of these fields to form the malformed packet. The optional fields are filled by setting all the quality of service bits to one. So the victim spends additional time to process this packet. This attack is more vulnerable when attacked by more than one zombie.
-\end{itemize}
-\end{frame}
+Malformed Packet Attacks
+
+<!-- Tấn công gói không đúng định dạng -->
+
+IP Address attack: The malformed packet is wrapped with same source and destination IP address thus creating chaos in the operating system of victim. By this way it rapidly slows down and crashes the victim.
+
+ <!-- Tấn công địa chỉ IP: Gói không đúng định dạng được bọc cùng địa chỉ IP nguồn và đích, do đó tạo ra sự hỗn loạn trong hệ điều hành của nạn nhân. Bằng cách này, nó nhanh chóng chậm lại và đâm vào nạn nhân. -->
+
+IP packet options attack: Each of the IP packets consists of the optional fields to carry additional information. This attack makes use of these fields to form the malformed packet. The optional fields are filled by setting all the quality of service bits to one. So the victim spends additional time to process this packet. This attack is more vulnerable when attacked by more than one zombie.
+
+ <!-- Tấn công tùy chọn gói IP: Mỗi gói IP bao gồm các trường tùy chọn để mang thông tin bổ sung. Cuộc tấn công này sử dụng các trường này để tạo thành gói không đúng định dạng. Các trường tùy chọn được điền bằng cách đặt tất cả các bit chất lượng dịch vụ thành một. Vì vậy nạn nhân dành thêm thời gian để xử lý gói tin này. Cuộc tấn công này dễ bị tổn thương hơn khi bị tấn công bởi nhiều zombie. -->
