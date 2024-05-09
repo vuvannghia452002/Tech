@@ -1,26 +1,26 @@
-[survey](contents/survey/survey.md)
+<!-- [survey](contents/survey/survey.md) -->
 
-[Tuan1](contents/Tuan1/Tuan1.md)
+<!-- [Tuan1](contents/Tuan1/Tuan1.md) -->
 
-[Tuan2](contents/Tuan2/Tuan2.md)
+<!-- [Tuan2](contents/Tuan2/Tuan2.md) -->
 
-[Tuan3](contents/Tuan3/Tuan3.md)
+<!-- [Tuan3](contents/Tuan3/Tuan3.md) -->
 
-[Tuan4](contents/Tuan4/Tuan4.md)
+<!-- [Tuan4](contents/Tuan4/Tuan4.md) -->
 
-[Tuan5](contents/Tuan5/Tuan5.md)
+<!-- [Tuan5](contents/Tuan5/Tuan5.md) -->
 
-[Tuan6](contents/Tuan6/Tuan6.md)
+<!-- [Tuan6](contents/Tuan6/Tuan6.md) -->
 
-[Tuan7](contents/Tuan7/Tuan7.md)
+<!-- [Tuan7](contents/Tuan7/Tuan7.md) -->
 
-[Tuan8](contents/Tuan8/Tuan8.md)
+<!-- [Tuan8](contents/Tuan8/Tuan8.md) -->
 
-[Tuan9](contents/Tuan9/Tuan9.md)
+<!-- [Tuan9](contents/Tuan9/Tuan9.md) -->
 
-[Tuan10](contents/Tuan10/Tuan10.md)
+<!-- [Tuan10](contents/Tuan10/Tuan10.md) -->
 
-[Tuan11](contents/Tuan11/Tuan11.md)
+<!-- [Tuan11](contents/Tuan11/Tuan11.md) -->
 
 [Tuan12](contents/Tuan12/Tuan12.md)
 
